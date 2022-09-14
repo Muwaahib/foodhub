@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f1f0f0;
+}
+/* .cont{
+    display: block;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: white;
+
+}
+.position-fixed{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:9;
+   
+}
+
+
+.logo img {
+    width: 50%;
+}
+
+.links,
+li,
+a {
+    background-attachment: fixed;
+    display: flex;
+    list-style: none;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #03045e;
+}
+
+li :hover {
+    color: #f7c532;
+
+}
+
+.bars-icon {
+    display: none;
+}
+
+
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 40% 20% 20% 20%);
+    margin-top: 40px;
+}
+
+.text .p {
+    margin-top: 90px;
+    margin-left: 70px;
+    text-transform: capitalize;
+
+    background-color: rgb(225, 220, 220);
+
+
+}
+
+.p {
+    width: 27%;
+    padding: 4px;
+}
+
+h1 {
+    /* width: 80%; */
+    margin-left: 70px;
+    text-transform: capitalize;
+    font-size: 55px;
+    font-family: sans-serif;
+    color: #03045e;
+    margin-top: 30px;
+}
+
+.food {
+    margin-top: 90px;
+    animation: ciyarsii 20s infinite linear;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.food img {
+    width: 280%;
+    height: 90%;
+    margin-left: 300px;
+    
+
+}
+
+.food .food-1 {
+    transform: translateX(-180px);
+
+}
+ 
+.food .food-2 {
+    transform: translatey(-40px);
+    
+
+}
+
+
+
+.food .food-3 {
+    transform: translateY(-125px);
+}
+
+#ptwo {
+    margin-top: 30px;
+    margin-left: 70px;
+    text-transform: capitalize;
+    color: rgb(86, 85, 85);
+    font-size: 18px;
+}
+
+.bnt {
+    display: flex;
+}
+
+.bnt button {
+    margin-top: 40px;
+    padding: 10px 30px;
+    margin-left: 20px;
+    background-color: #f7c532;
+    transform: translateX(50px);
+    text-transform: capitalize;
+    font-weight: bold;
+    border: none;
+}
+
+button.bnt2 {
+    background-color: rgb(222, 220, 220);
+
+}
+
+button:hover {
+    background-color: rgb(247, 180, 56);
+}
+
+/* qaybta sadexaad */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+margin-top:-800px ;
+}
+
+.context {
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.hero-image img {
+    width: 400px;
+    height: 640px;
+    animation: ciyarsii 15s infinite linear;
+}
+h2{
+    font-size: 50px;
+    color: #03045e;
+    margin-top: 100px;
+}
+p{
+    margin-top: 40px; 
+    color: rgb(121, 119, 119); 
+}
+.dialog img{
+    width: 200px;
+    height: 400px;
+}
+/* .shapes img{
+    width: 100%;
+} */
+.dialog-2{
+    /* background-color: rgb(243, 239, 239); */
+    margin-top: 100px;
+    transform: translateY(-600px) translateX(600px);
+    
+}
+.dialog-1{
+    /* margin-top: 100px;  */
+    transform: translateY(-950px) translateX(890px);
+   
+}
+.circle {
+    width: 100px;
+    height: 200px;
+}
+.circle-1 {
+    width: 30px;
+    transform: translateY(-1180px) translateX(730px);
+}
+.circle-2{
+    width: 20px;
+    transform: translateY(-920px) translateX(1120px); 
+}
+.circle-3{
+    width: 50px;
+    transform: translateY(-780px) translateX(900px); 
+}
+.circle-4{
+    width: 90px;
+    transform: translateY(-1120px) translateX(1100px); 
+}
+.circle-5{
+    width: 60px;
+    transform: translateY(-1130px) translateX(750px); 
+}
+.maa img{
+    margin-top: 50px;
+    width: 200px;
+  }
+.card-number{
+    font-family: 'Monoton', cursive;
+    color: #f7c532;
+    font-size: 45px;
+    margin-top: -5px;
+    margin-right: 20px;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    font-size: 18px;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+.card-heading{
+    color: #03045e;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.cc{
+    display: flex;
+}
+.card-text{
+    margin-left: 70px;
+    font-size: 15px;
+    padding: 12px;
+    margin-top: 6px;
+    
+    
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width) {
+    .nav {
+        display: none;
+    }
+
+}
+
+
+/* animation */
+@keyframes ciyarsii {
+    0% {
+      transform: scale(0.9);
+    }
+  
+    50% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(0.9);
+    }
+  }
+ 
