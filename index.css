@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f1f0f0;
+    background-color: rgb(252, 245, 245);
 }
 /* .cont{
     display: block;
@@ -246,7 +246,7 @@ p{
     
 }
 .card-heading{
-    color: #03045e;
+    color:#241f42;
     font-size: 25px;
     margin-top: 10px;
 }
@@ -261,6 +261,34 @@ p{
     
     
 }
+
+.our{
+    display: grid;
+    grid-template-columns: repeat(3,30%);  
+    background-color: black; 
+    justify-content: space-around;
+}
+
+.our-image img {
+width: 250px;
+/* margin-top: 20px; */
+/* margin-left: 60px; */
+}
+/* .our-image h3{
+    margin-top: -4px;
+    margin-left: 60px;
+    background-color: #650090;
+    width: 27.7%;
+    padding: 20px 15px;
+    
+}
+.our-image h3 span{
+    background-color: #f7c532;
+    margin-left: 83px;
+    padding:  18px 10px;
+} */
+
+
   
 
 
