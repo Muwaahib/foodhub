@@ -192,13 +192,13 @@ p{
     width: 100%;
 } */
 .dialog-2{
-    /* background-color: rgb(243, 239, 239); */
+    
     margin-top: 100px;
     transform: translateY(-600px) translateX(600px);
     
 }
 .dialog-1{
-    /* margin-top: 100px;  */
+    
     transform: translateY(-950px) translateX(890px);
    
 }
@@ -226,7 +226,7 @@ p{
     width: 60px;
     transform: translateY(-1130px) translateX(750px); 
 }
-.maa img{
+.saxeex img{
     margin-top: 50px;
     width: 200px;
   }
@@ -242,7 +242,7 @@ p{
     grid-template-columns: repeat(3,30%);
     font-size: 18px;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 100px;
     
 }
 .card-heading{
@@ -261,20 +261,26 @@ p{
     
     
 }
-
-.our{
+#img12 img{
+    width: 300px;
+}
+#img11 img{
+    width: 300px;
+    margin-left: 330px;
+    margin-bottom: 500px;
+}
+/* .our{
     display: grid;
     grid-template-columns: repeat(3,30%);  
-    background-color: black; 
     justify-content: space-around;
 }
 
 .our-image img {
 width: 250px;
-/* margin-top: 20px; */
-/* margin-left: 60px; */
+ margin-top: 20px; 
+ margin-left: 60px; 
 }
-/* .our-image h3{
+ .our-image h3{
     margin-top: -4px;
     margin-left: 60px;
     background-color: #650090;
@@ -286,9 +292,62 @@ width: 250px;
     background-color: #f7c532;
     margin-left: 83px;
     padding:  18px 10px;
-} */
+}  */
 
+.testimonials-grid{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    justify-content: space-around;
+    margin-left: 40px;
+    align-items: center;
+}
+.card-title{
+    color: #241f42;
+    margin-top: 10px;
 
+}
+.customer-info{
+    display: flex;
+    margin-top: 35px;
+}
+.customer-info img{
+    border-radius: 50%;
+    margin: auto;
+    width: 30%;
+}
+.customer-info h5{
+    margin-top: 25px;
+    margin-left: -120px;
+    font-size: 13px;
+}
+.section-text{
+    margin-left: 100px;  
+}
+.section-title{
+    margin-left: 100px;   
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    align-items: center;
+    background-color:#1a1630;
+    padding: 50px 0;
+}
+.footer-img img{
+    width: 200px;
+}
+.footer-li {
+    display: flex;
+    color: white;
+    width: 30px;
+}
+.copyright{
+    margin-top: -40px;
+}
+li{
+    color: white;
+}
   
 
 
